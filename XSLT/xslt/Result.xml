@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ResultStyleSheet.xsl"?>
+<Staple>
+    <VersionDetails>
+        <android_version>SDK 21</android_version>
+        <os_version>Windows XP</os_version>
+    </VersionDetails>
+    
+    <Result>
+        <case_id>TC_ID 01</case_id>
+        <description> This is the test description for test1This is the test description for test1This is the test description for test1</description>
+        <result>pass</result>
+    </Result>
+    
+    <Result>
+        <case_id >TC_ID 02</case_id>
+        <description> This is the test description for test2</description>
+        <result>pass</result>
+    </Result>
+    <Result>
+        <case_id>TC_ID 03</case_id>
+        <description> This is the test description for test3</description>
+        <result>pass</result>
+    </Result>
+    <Result>
+        <case_id>TC_ID 04</case_id>
+        <description> This is the test description for test4</description>
+        <result>pass</result>
+    </Result>
+    <Result>
+        <case_id>TC_ID 05</case_id>
+        <description>This is the test description for  test5</description>
+        <result>fail</result>
+    </Result>
+    
+   <Steps id="TC_ID 01">
+    <Step>
+        <case_id>TC_ID 01</case_id>
+        <step_id>step 01</step_id>
+        <description> Navigate To Login page</description>
+        <result>pass</result>
+    </Step>
+    
+    <Step>
+        <step_id>step 02</step_id>
+        <description> New user button clicked</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 03</step_id>
+        <description> user added successfully</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 04</step_id>
+        <description> new user login to application</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 05</step_id>
+        <description>logout successfully!</description>
+        <result>pass</result>
+    </Step>
+    </Steps>
+    
+   <Steps id="TC_ID 02">
+    <Step>
+        <case_id>TC_ID 02</case_id>
+        <step_id>step 01</step_id>
+        <description> Navigate To Login page</description>
+        <result>pass</result>
+    </Step>
+    
+    <Step>
+        <step_id>step 02</step_id>
+        <description> New user button clicked</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 03</step_id>
+        <description> user added successfully</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 04</step_id>
+        <description> new user login to application</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 05</step_id>
+        <description>logout successfully!</description>
+        <result>pass</result>
+    </Step>
+    </Steps>
+    
+   
+    <Steps id="TC_ID 03">
+    <Step>
+        <case_id>TC_ID 03</case_id>
+        <step_id>step 01</step_id>
+        <description> Navigate To Login page</description>
+        <result>pass</result>
+    </Step>
+    
+    <Step>
+        <step_id>step 02</step_id>
+        <description> New user button clicked</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 03</step_id>
+        <description> user added successfully</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 04</step_id>
+        <description> new user login to application</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 05</step_id>
+        <description>logout successfully!</description>
+        <result>pass</result>
+    </Step>
+    </Steps>
+    
+    
+     <Steps id="TC_ID 04">
+    <Step>
+        <case_id>TC_ID 04</case_id>
+        <step_id>step 01</step_id>
+        <description> Navigate To Login page</description>
+        <result>pass</result>
+    </Step>
+    
+    <Step>
+        <step_id>step 02</step_id>
+        <description> New user button clicked</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 03</step_id>
+        <description> user added successfully</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 04</step_id>
+        <description> new user login to application</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 05</step_id>
+        <description>logout successfully!</description>
+        <result>pass</result>
+    </Step>
+    </Steps>
+    
+     
+      <Steps id="TC_ID 05">
+    <Step>
+        <case_id>TC_ID 05</case_id>
+        <step_id>step 01</step_id>
+        <description> Navigate To Login page</description>
+        <result>pass</result>
+    </Step>
+    
+    <Step>
+        <step_id>step 02</step_id>
+        <description> New user button clicked</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 03</step_id>
+        <description> user added successfully</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 04</step_id>
+        <description> new user login to application</description>
+        <result>pass</result>
+    </Step>
+    <Step>
+        <step_id>step 05</step_id>
+        <description>logout successfully!</description>
+        <result>fail</result>
+    </Step>
+    </Steps>
+</Staple>

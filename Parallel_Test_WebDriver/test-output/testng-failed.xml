@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [ParallelTests]" parallel="tests">
+  <parameter name="URL" value="http://www.google.com"/>
+  <test name="Firefox(failed)" parallel="tests">
+    <classes>
+      <class name="WebDriverFirefox">
+        <methods>
+          <include name="open" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- WebDriverFirefox -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test name="Chrome(failed)" parallel="tests">
+    <classes>
+      <class name="WebDriverChrome">
+        <methods>
+          <include name="open1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- WebDriverChrome -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [ParallelTests] -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XslDesign/AspireXslt.xsl"?>
+	<AspireTesting>
+		<TestCase>
+			<TestStep>1</TestStep>
+			<Description>Login Successfully Executed</Description>
+			<Result>Pass</Result>
+		</TestCase>
+		<TestCase>
+			<TestStep>2</TestStep>
+			<Description>LearnStation Successfully Executed</Description>
+			<Result>Pass</Result>
+		</TestCase>
+		<TestCase>
+			<TestStep>3</TestStep>
+			<Description>LMS Successfully Executed</Description>
+			<Result>Pass</Result>
+		</TestCase>
+		<TestCase>
+			<TestStep>4</TestStep>
+			<Description>HelpDesk Successfully Executed</Description>
+			<Result>Pass</Result>
+		</TestCase>
+		<TestCase>
+			<TestStep>5</TestStep>
+			<Description>SeventhSense Successfully Executed</Description>
+			<Result>Pass</Result>
+		</TestCase>
+		<TestCase>
+			<TestStep>6</TestStep>
+			<Description>OldPMS Successfully Executed</Description>
+			<Result>Pass</Result>
+		</TestCase>
+	</AspireTesting>
