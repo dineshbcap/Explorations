@@ -11,7 +11,7 @@ public class FileReadWriteExample {
 	
 	
 	public void testVariableWithDefaultValue(){
-		int a;
+		int a=1;
 		System.out.println(a);
 		
 	}

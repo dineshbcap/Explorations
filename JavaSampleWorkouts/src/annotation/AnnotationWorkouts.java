@@ -4,7 +4,6 @@ import java.lang.annotation.Target;
 
 import static java.lang.annotation.ElementType.ANNOTATION_TYPE;
 
-@Target(ANNOTATION_TYPE.METHOD)
 public class AnnotationWorkouts {
 
     public static void main(String args[]){
