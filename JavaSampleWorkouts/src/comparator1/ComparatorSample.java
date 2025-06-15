@@ -1,13 +1,15 @@
-package comparator;
+package comparator1;
+
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
-import java.util.List;
 
 public class ComparatorSample implements Comparator<String>{
+	@Test
 	public static void main(String ar[])throws IOException{
 		HashSet<User> names = new HashSet<User>();
 		names.add(new User("dinesh8", 1));
